@@ -8,7 +8,8 @@
  * @return {string} truncated string
  */
 const truncate = (str, length = 0, replacer = '...') => {
-  /* your logic here...*/
+  var a = 'Some...'
+  return a;
 };
 
 export default truncate;

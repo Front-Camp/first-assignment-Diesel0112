@@ -7,7 +7,8 @@
 * max([-1, 0]);   // 0
 */
 const max = arr => {
-  /* your logic here...*/
+	
+  return Math.max.apply(NaN, arr);
 };
 
 export default max;
